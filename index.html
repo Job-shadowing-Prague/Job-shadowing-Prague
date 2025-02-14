@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job-Shadowing in Prague</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".accordion-title").click(function() {
+                $(this).next(".accordion-content").slideToggle();
+            });
+        });
+    </script>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #6abf69, #d3d3d3);
+            font-family: Arial, sans-serif;
+            color: black;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 100, 0, 0.7);
+            border-radius: 10px;
+        }
+        nav ul li {
+            padding: 14px 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        header, section, footer {
+            background-color: rgba(211, 211, 211, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+            color: black;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .image-container img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#school">Our School</a></li>
+                <li><a href="#schedule">Program Schedule</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+        <h1>Job-Shadowing for Primary School Teachers in the Heart of Prague</h1>
+        <p>Discover innovative teaching methods and exchange experiences with colleagues from across Europe.</p>
+        
+    </header>
+    
+    <div class="image-container">
+        <img src="school-image.jpg" alt="Brána jazyků School">
+        <img src="prague-city.jpg" alt="Beautiful Prague City Center">
+    </div>
+    
+    <section id="about">
+        <h2>About the Program</h2>
+        <p>We offer a unique opportunity for primary school teachers to observe lessons, engage with Czech colleagues, and acquire new methodologies for their teaching practice.</p>
+    </section>
+    
+    <section id="school">
+        <h2>About Our School</h2>
+        <p>Brána jazyků Primary School with extended mathematics instruction was established in 2013 by merging two originally independent schools. We are located in two buildings in Prague 1 – at Vojtěšská 13 (for grades 1–4) and at Uhelný trh 4 (for grades 5–9). Our school is a faculty school with extended language and mathematics education.</p>
+        <p><a href="https://www.branajazyku.cz" target="_blank">Visit our school website</a></p>
+    </section>
+    
+    <section id="schedule">
+        <h2>How the Program Works</h2>
+        <ul>
+            <li>Day 1: Introduction to the program and school</li>
+            <li>Days 2-4: Shadowing teachers in classrooms</li>
+            <li>Day 5: Feedback and networking</li>
+        </ul>
+    </section>
+    
+    <section id="pricing">
+        <h2>Program Pricing</h2>
+        <p>The cost of participation in the job-shadowing program is <strong>350 EUR</strong>. Funding is possible through the Erasmus+ program.</p>
+        <p>Each participant will receive a certificate of attendance upon completion of the program.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you have any questions or wish to participate, please contact us:</p>
+        <p>Email: <a href="mailto:jolana.ronkova@branajazyku.cz">jolana.ronkova@branajazyku.cz</a></p>
+    </section>
+    
+    
+    
+    <section id="map">
+        <h2>Find Us</h2>
+        <p><a href="https://www.google.com/maps?q=Vojtěšská+13,+Praha+1" target="_blank">View on Google Maps</a></p>
+    </section>
+    
+    <footer>
+        <p>Contact: <a href="mailto:jolana.ronkova@branajazyku.cz">jolana.ronkova@branajazyku.cz</a></p>
+    </footer>
+</body>
+</html>
